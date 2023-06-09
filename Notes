@@ -1,0 +1,10 @@
+pkill -u old_username pid
+pkill -9 -u old_username
+usermod -l new_username old_username
+groupmod -n newUsername oldUsername
+usermod -d new_home_directory -m new_username
+
+
+links: 
+https://learnubuntu.com/change-username/ 
+https://www.cyberciti.biz/faq/howto-change-rename-user-name-id/
